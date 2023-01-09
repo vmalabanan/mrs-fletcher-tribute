@@ -1,0 +1,359 @@
+/************************************/
+/* GENERAL */
+/************************************/
+
+html {
+    font-size: 62.5%;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+  }
+  
+  body {
+    box-sizing: border-box;
+    background-color: #faf3ee;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #202020;
+    font-family: "Raleway", sans-serif;
+  }
+
+
+  /************************************/
+  /* NAV */
+  /************************************/
+  .nav-list {
+    margin: 3.5rem 9rem 11rem 9rem;
+    list-style: none;
+    font-size: 2.1rem;
+    font-weight: 300;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  input {
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    height: 3rem;
+    padding: 1.25rem;
+    font-family: "Raleway", sans-serif;
+    color: #202020;
+    font-size: 2.1rem;
+    font-weight: 300;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  
+  .site-name {
+    font-family: "PT Serif", serif;
+    font-size: 6rem;
+    letter-spacing: 0.01em;
+  }
+  .site-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .nav-link-first {
+    margin-right: 7rem;
+  }
+  
+  .nav-link:link,
+  .nav-link:visited {
+    color: #202020;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: none;
+  }
+  
+  /************************************/
+  /* HERO */
+  /************************************/
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22.5rem;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .hero-text {
+    margin-left: 5rem;
+  }
+  
+  figcaption {
+    display: none;
+  }
+
+  #title {
+    font-family: "PT Serif", serif;
+    font-size: 10.3rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.06;
+    margin-bottom: 2.5rem;
+    /* text-align: center; */
+  }
+  
+  .subtitle {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+    letter-spacing: 0.147em;
+    text-transform: uppercase;
+  }
+
+  .italics {
+      font-style: italic;
+  }
+  
+  /************************************/
+  /* LA TIMES ARTICLE */
+  /************************************/
+  #la-times-quote {
+    margin-bottom: 32rem;
+  }
+
+  .article-heading-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 9.5rem;
+  }
+   
+  .article-heading h2 {
+    font-family: "PT Serif", serif;
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
+  
+  #la-times-quote p {
+    font-weight: 400;
+    font-size: 2.1rem;
+    letter-spacing: 0.075em;
+    line-height: 1.6;
+  }
+  
+  .article-paragraphs-container {
+    margin: 0 50rem 0 50rem;
+  }
+  
+  .article-paragraphs-1 {
+    margin-bottom: 4.5rem;
+  }
+  
+  /************************************/
+  /* YOUTUBE VIDEO */
+  /************************************/
+  
+  .youtube-section {
+    margin-bottom: 38rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+    
+  .video-and-description-wrapper p {
+    font-size: 2.1rem;
+  }
+  
+  iframe {
+    width: 60vw;
+    height: 34vw;
+    margin-bottom: 3rem;
+  }
+
+  
+  /************************************/
+  /* QUOTES */
+  /************************************/
+  #quotes-section {
+    margin: 0 50rem 36.5rem 50rem;
+    }
+
+  #quotes-section img {
+    max-width: 400px;
+  }
+
+  #quote-1, #quote-2, #quote-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22rem;
+  }
+  
+  #quote-1 blockquote,
+  #quote-3 blockquote {
+    margin-right: 10rem;
+    text-align: right;
+}
+  
+  blockquote {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-size: 2.8rem;
+    letter-spacing: 0.01em;
+    line-height: 1.45;
+    margin-bottom: 2.5rem;
+    font-style: italic;
+}
+
+  blockquote .italics {
+    font-style: normal;
+}
+
+  #quote-2 .quote-image {
+      margin-right: 10rem;
+  }
+  
+  .quote-author {
+    font-weight: 700;
+  }
+  
+  /************************************/
+  /* LINKS */
+  /************************************/
+  #links-section {
+    margin-bottom: 10rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 2.3rem;
+    letter-spacing: 0.057em;
+    line-height: 1.09;
+    display: flex;
+    justify-content: center;
+  }
+
+  #links-section ul {
+      display: flex;
+      
+  }
+
+  #links-section li {
+    list-style-type: none;
+    margin-right: 3rem;
+}
+ 
+  #links-section a:link,
+  #links-section a:visited {
+    color: #202020;
+    text-decoration: underline;
+  }
+  
+  #links-section a:hover {
+    text-decoration: underline;
+  }
+
+  /************************************/
+  /* FACTS TABLE */
+  /************************************/
+  #facts-section {
+    margin-bottom: 22rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  #facts-section img {
+      max-width: 400px;
+      margin-right: 7.5rem;
+  }
+
+  tr td:first-child {
+      font-weight: 700;
+      text-align: right;
+      padding-right: 1rem;
+  }
+
+  #facts-section a:link,
+  #facts-section a:visited {
+    color: #202020;
+    text-decoration: underline;
+  }
+  
+  #facts-section a:hover {
+    text-decoration: underline;
+  }
+
+  
+  /************************************/
+  /* FOOTER */
+  /************************************/
+  footer {
+    background-color: #fff;
+    padding: 5.5rem 30rem 8.5rem 30rem;
+    font-size: 1.35rem;
+  }
+  
+  .site-name-footer {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    margin-bottom: 3.5rem;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-columns {
+    display: flex;
+    margin-bottom: 6rem;
+  }
+  
+  footer a:link,
+  footer a:visited {
+    color: #202020;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: none;
+  }
+  
+  .footer-col-1,
+  .footer-col-2 {
+    margin-right: 16rem;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-bottom-left {
+    display: flex;
+  }
+  
+  .footer-bottom-left-first {
+    margin-right: 3rem;
+  }
+  
+  .footer-bottom-right {
+    text-transform: uppercase;
+  }
